@@ -28,6 +28,6 @@ jobs:
       - name: Install surge
         run: npm install -g surge
       - name: Run serge 
-        run: surge  ./ibrahimsnetflixclone.surge.sh --token ${{secrets.SURGE_KEY}}
+        run: surge  ./ibrahimsnetflix_clone.surge.sh --token ${{secrets.SURGE_KEY}}
           
          
